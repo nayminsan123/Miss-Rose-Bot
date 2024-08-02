@@ -10,12 +10,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = ""
-    OWNER_ID = "683538773" # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "ViruZs"
+    API_KEY = "7474548411:AAED5RvQTpS0ChrzBVSZYQHJSlY_4aQp4tc"
+    OWNER_ID = "6812261109" # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "nayminsan01"
 
-    # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    # RECOMMEND
+    SQLALCHEMY_DATABASE_URI = 'mongodb+srv://aungminsan23:zaw123@@@@cluster0.vlpdbyc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
@@ -23,7 +23,7 @@ class Config(object):
     URL = None
 
     # OPTIONAL
-    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUDO_USERS = [6812261109]  # List of id's (not usernames) for users which have sudo access to the bot.
     SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     DONATION_LINK = None  # EG, paypal
