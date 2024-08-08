@@ -1,3 +1,4 @@
+setuptools
 future
 emoji
 requests
